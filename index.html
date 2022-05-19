@@ -4,10 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <script src="script.js"></script>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <h2>Game to 5</h2>
+    </header>
+    <section class = 'score'>
+        <h3 id="test">Score</h3>
+        <!-- <button id="restartBtn">Test</button> -->
+        <h2 id="liveScore" >| 0 : 0 |</h2>
+    </section>
+    <section class="gameResults">
+        <div>
+            <div id="floatThisHm">
+                <h5>Human</h5>
+            </div>
+            <img id='playerImg' src="/imgs/whitebk.png"  width="250" height="250">
+        </div>
+        <div id="result1">
+            <h3 id="results">Select options below to start!</h3>
+        </div>
+        <div class="computerPlayer">
+            <div id="floatThisPc">
+                <h5>Computer</h5>
+            </div>
+            <img id='computerImg' src="/imgs/whitebk.png"  width="250" height="250">  
+        </div>  
 
+    </section>
+    <section class="options">
+        <div class="rock">
+            <div>
+                <h4 id="rockWord">Rock</h4>
+                <img id="rock" src="/imgs/rock.jpg" alt="rock" width="300" height="300">
+            </div>
+        </div>
+        <div class="paper">
+            <div>
+                <h4 id="paperWord">Paper</h4> 
+                <img id="paper" src="/imgs/paper.jpg" alt="paper" width="300" height="300">
+            </div>
+        </div>
+        <div class="scissor">
+            <div id="testtest">
+                <h4 id="scissorWord">Scissors</h4>
+                <img id='scissors' src="/imgs/scissor.jpg" alt="scissors" width="300" height="300">
+            </div>
+
+        </div>
+    </section>
+    <!-- <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id='scissors'>Scissor</button> -->
 </body>
 </html>

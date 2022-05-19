@@ -1,0 +1,110 @@
+header {
+    color: #8ed081;
+    display: block;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+}
+
+#floatThisHm {
+    color: #654F6F;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+
+#floatThisPc {
+    color:#654F6F;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+#test{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Koulen', cursive;
+    font-size: 35px;
+    color: #1C3144;
+    line-height: 4px;
+}
+
+#liveScore{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Hanuman', serif;
+    font-size: 35px;
+    color: #1C3144;
+    line-height: 4px;
+}
+
+.gameResults {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    font-family: 'Koulen', cursive;
+    font-size: 40px;
+    color: #1C3144;
+
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+
+
+#rockWord {
+    color: #fb6376;
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#paperWord {
+    color: #fec601;
+    display: flex;
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+    justify-content: center;
+}
+
+#scissorWord {
+    color: #508ca4;
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#result1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+#rock:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#paper:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#scissors:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
